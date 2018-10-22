@@ -1,0 +1,5 @@
+import difflib
+def similar(a, b):
+return SequenceMatcher(None, a, b).ratio()
+  if similar() >=0.8: print ("yes")
+  else: print ("no")
